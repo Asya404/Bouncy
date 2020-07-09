@@ -113,6 +113,38 @@
     }
 
 
+    
+    /*Impressed*/
+    .impressed__inner {
+      flex-wrap: wrap;
+    }
+    .impressed__info {
+      width: 100%;
+      padding-bottom: 40px;
+    }
+    .impressed__img {
+      margin: 0 auto;
+      height: 328px;
+    }
+
+
+    /*Portfolio*/
+    .portfolio-work {
+      max-width: 170px;
+      margin: 1px;
+    }
+
+
+    /*Team*/
+    .team__inner {
+      flex-wrap: wrap;
+    }
+    .team__photo {
+      width: 100%;
+    }
+    .team__textcontent {
+      width: 100%;
+    }
 
 
     /*Testimonials*/
@@ -143,4 +175,21 @@
 
   @media (max-width: 575px) {
 
+  /*Details*/
+  .details__texts {
+    flex-wrap: wrap;
+  }
+  .details__text1 {
+    width: 100%;
+  }
+
+  /*Portfolio*/
+  .portfolio__nav {
+    max-width: 430px;
+    font-size: 14px;
+  }
+  .portfolio__nav-link {
+    margin: 0 3px;
+  }
+  
   }

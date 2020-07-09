@@ -334,7 +334,6 @@ body {
 .proj__footer {
     background: url("../img/proj/footer.jpg");
     background-size: cover;
-    margin-top: -7px;
     color: #fff;
 }
 .project__footer-inner {

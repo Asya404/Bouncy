@@ -24,7 +24,7 @@
 
   }
 
-
+}
 
 
 
@@ -59,23 +59,62 @@
     .description__inner {
       flex-wrap: wrap;
       justify-content: center;
+      text-align: center;
       padding: 50px 0;
     }
 
+    .description__btn {
+      margin: 30px auto;
+    }
+    .description__img {
+      max-height: 300px;
+    }
+
+      /*Details*/
+    .details__texts {
+      flex-wrap: wrap;
+      line-height: 20px;
+      letter-spacing: 0.5px;
+    }
+    .details__text1 {
+      width: 100%;
+      font-size: 14px;
+      padding-bottom: 10px;
+    }
+    .details__text2 {
+      font-size: 12px;
+    }
 
 
     /*Project*/
-    .project__item1 {
-      width: 100%;
-    }
     .project__inner {
       flex-wrap: wrap;
     }
+    .project__item1 {
+      width: 100%;
+      height: 200px;
+    }
     .project__item2 {
       width: 50%;
+      height: 200px;
     }
     .project__item3 {
       width: 50%;
+      height: 200px;
+    }
+    .project__footer-inner {
+      flex-wrap: wrap;
+      padding: 25px 0;
+    }
+    .project__footer-text {
+      width: 100%;
+      font-size: 14px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .project__footer-btn {
+      font-size: 14px;
+      margin: 0 auto;
     }
 
     /*Team*/
@@ -88,6 +127,16 @@
     }
     .team__textcontent {
       margin: 0 auto;
+    }
+    .team__quote-text {
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .team__stat-gray {
+      margin-bottom: 0.7rem;
+    }
+    .team__footer-inner {
+      margin: 30px auto;
     }
 
 
@@ -111,28 +160,78 @@
       text-align: center;
       margin: 20px auto;
     }
+    .services__text1 {
+      font-size: 14px;
+    }
+    .services__text2 {
+      font-size: 12px;
+    }
+    .services-round {
+      width: 100px;
+      height: 100px;
+    }
+    .services-round__text {
+      font-size: 12px;
+    }
 
 
     
     /*Impressed*/
     .impressed__inner {
       flex-wrap: wrap;
+      padding: 50px 0;
     }
     .impressed__info {
       width: 100%;
       padding-bottom: 40px;
     }
+    .impressed__text {
+      font-size: 14px;
+    }
     .impressed__img {
+      background-size: cover;
       margin: 0 auto;
-      height: 328px;
+      height: 200px;
+      max-width: 250px;
+    }
+    .impressed__img-logo {
+      max-width: 100px;
     }
 
 
     /*Portfolio*/
+    .portfolio {
+      padding-bottom: 50px;
+    }
+    .portfolio__nav {
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+    .portfolio__nav-link {
+      margin: 0 3px;
+    }
     .portfolio-work {
       max-width: 170px;
       margin: 1px;
     }
+    .portfolio-work__info {
+      max-width: 170px;
+      padding: 10px;
+    }
+    .portfolio-work__title {
+      font-size: 14px;
+    }
+    .portfolio-work__text {
+      font-size: 12px;
+    }
+    .port-footer__inner {
+      margin: 30px auto;
+    }
+    .port-footer__text {
+      font-size: 14px;
+    }
+
+    
 
 
     /*Team*/
@@ -145,14 +244,18 @@
     .team__textcontent {
       width: 100%;
     }
+    .team__footer-text {
+      font-size: 16px;
+    }
 
 
     /*Testimonials*/
-    .tetimonials {
-      padding-bottom: 50px;
+    .testimonials {
+      padding-bottom: 50px ;
     }
     .testimonials__inner {
       flex-wrap: wrap;
+      padding: 50px 20px;
     }
     .testimonials__photo {
       margin: 0 auto;
@@ -160,6 +263,54 @@
     }
     .testimonials__textcontent {
       margin: 0 auto;
+    }
+    .testimonials__text {
+      line-height: 20px;
+      font-size: 14px;
+    }
+
+
+    /*Slider*/
+    .slider__header {
+      margin: 20px;
+    }
+    .slider__content {
+      margin: 20px 50px;
+    }
+    .slider__content-title {
+      font-size: 14px;
+    }
+    .slider__subtitle {
+      font-size: 12px;
+    }
+    .slider__content-text {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .slider__content-btn {
+      font-size: 14px;
+    }
+    .slick-btn {
+      width: 30px;
+      height: 30px;
+    }
+
+    /*Price*/
+    .price {
+      padding-bottom: 20px;
+    }
+    .price__inner {
+      flex-wrap: wrap;
+    }
+    .price-column {
+      flex: none;
+      width: 100%;
+      margin: 10px auto;
+    }
+
+    /*Subscribe*/
+    .subscribe__email {
+      margin-bottom: 20px;
     }
 
   }
@@ -175,21 +326,9 @@
 
   @media (max-width: 575px) {
 
-  /*Details*/
-  .details__texts {
-    flex-wrap: wrap;
-  }
-  .details__text1 {
-    width: 100%;
-  }
+
 
   /*Portfolio*/
-  .portfolio__nav {
-    max-width: 430px;
-    font-size: 14px;
-  }
-  .portfolio__nav-link {
-    margin: 0 3px;
-  }
+
   
-  }
+}

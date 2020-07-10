@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?vuyibz');
-  src:  url('../fonts/icomoon.eot?vuyibz#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?vuyibz') format('truetype'),
-    url('../fonts/icomoon.woff?vuyibz') format('woff'),
-    url('../fonts/icomoon.svg?vuyibz#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?lcpelj');
+  src:  url('../fonts/icomoon.eot?lcpelj#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?lcpelj') format('truetype'),
+    url('../fonts/icomoon.woff?lcpelj') format('woff'),
+    url('../fonts/icomoon.svg?lcpelj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,12 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-lamp:before {
+.icon-chevron-small-left:before {
   content: "\e900";
 }
-.icon-angle-left:before {
-  content: "\f104";
+.icon-chevron-small-right:before {
+  content: "\e901";
 }
-.icon-angle-right:before {
-  content: "\f105";
+.icon-menu:before {
+  content: "\e906";
+}
+.icon-adjustments:before {
+  content: "\e01d";
 }

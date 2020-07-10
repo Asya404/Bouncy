@@ -58,6 +58,7 @@ body {
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header__logo {
     max-width: 115px;
@@ -81,6 +82,9 @@ body {
 }
 .header__menu a:hover {
     border-color: #fff;
+}
+.header__menu-btn {
+    display: none;
 }
  
 
@@ -1005,8 +1009,8 @@ body {
     position: absolute;
     top: 50%;
     z-index: 3;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #fff;
     cursor: pointer;
     outline: none;
@@ -1025,10 +1029,12 @@ body {
     color: #fff;
 }
 .slick-next:before {
-    content: "\f105";  
+    content: "\e901";
+    font-family: 'icomoon'; 
 }
 .slick-prev:before {
-    content: "\f104";
+    content: "\e900";
+    font-family: 'icomoon';
 }
 .slick-next {
     right: 0;

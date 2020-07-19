@@ -57,6 +57,7 @@
     }
     .header__content-description {
       font-size: 14px;
+      margin-bottom: 100px;
     }
     .header__menu-btn {
       display: block;
@@ -172,6 +173,9 @@
 
 
     /*Services*/
+    .serices {
+      padding-bottom: 90px;
+    }
     .services__inner {
       flex-wrap: wrap;
     }
@@ -188,7 +192,6 @@
       margin-right: 10px;
     }
     .services__textcontent {
-      text-align: center;
       margin: 20px auto;
     }
     .services__text1 {
@@ -235,14 +238,14 @@
       padding-bottom: 50px;
     }
     .portfolio__nav {
-      font-size: 12px;
+      font-size: 11px;
       margin-bottom: 30px;
     }
     .portfolio__nav-link {
       margin: 0 3px;
     }
     .portfolio-work {
-      max-width: 140px;
+      max-width: 110px;
       margin: 0.5px;
     }
     .portfolio-work__info {

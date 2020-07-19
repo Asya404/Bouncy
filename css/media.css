@@ -82,7 +82,9 @@
       text-align: center;
       padding: 50px 0;
     }
-
+    .description__text {
+      text-align: left;
+    }
     .description__btn {
       margin: 30px auto;
     }
@@ -91,6 +93,12 @@
     }
 
       /*Details*/
+    .details__icons {
+      max-width: 180px;
+    }
+    .details__inner {
+      margin: 40px auto 0;
+    }
     .details__texts {
       flex-wrap: wrap;
       line-height: 20px;
@@ -99,7 +107,7 @@
     .details__text1 {
       width: 100%;
       font-size: 14px;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
     }
     .details__text2 {
       font-size: 12px;
@@ -190,8 +198,8 @@
       font-size: 12px;
     }
     .services-round {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
     }
     .services-round__text {
       font-size: 12px;
@@ -234,8 +242,8 @@
       margin: 0 3px;
     }
     .portfolio-work {
-      max-width: 165px;
-      margin: 1px;
+      max-width: 140px;
+      margin: 0.5px;
     }
     .portfolio-work__info {
       max-width: 170px;
@@ -267,6 +275,7 @@
     }
     .team__textcontent {
       width: 100%;
+      max-width: 300px;
     }
     .team__footer-text {
       font-size: 16px;

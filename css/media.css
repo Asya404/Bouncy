@@ -249,14 +249,18 @@
       margin: 0.5px;
     }
     .portfolio-work__info {
-      max-width: 170px;
+      max-width: 110px;
       padding: 10px;
     }
     .portfolio-work__title {
-      font-size: 14px;
+      font-size: 8px;
+      letter-spacing: 2px;
     }
     .portfolio-work__text {
-      font-size: 12px;
+      font-size: 7px;
+    }
+    .portfolio-work__title:after {
+      margin: 10px 0 15px 0;
     }
     .port-footer__inner {
       margin: 30px auto;

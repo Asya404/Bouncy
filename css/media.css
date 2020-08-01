@@ -34,7 +34,6 @@
     
     /*Header*/
     .header__menu {
-      margin-top: 70px;
       position: relative;
     }
     .header__content-inner {
@@ -280,7 +279,7 @@
       margin: 0 3px;
     }
     .portfolio-work {
-      max-width: 110px;
+      max-width: 105px;
       margin: 0.5px;
     }
     .portfolio-work__info {

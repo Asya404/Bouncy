@@ -44,10 +44,13 @@ $(document).ready(function() {
   });
 
 
+  $("#toggle").click(function() {
 
-  $('.header__menu-btn').on('click', function(){
-    $('.header__menu ul').slideToggle();
-  })
+    $(this).toggleClass('on');
+    $("#resize").toggleClass("active");
+
+    });
+
 
 
 });

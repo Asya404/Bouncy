@@ -70,6 +70,7 @@ body {
 /*Header menu*/
 .header__menu li {
     display: inline-block;
+    position: relative;
 }
 .header__menu a {
     color: #fff;
@@ -113,6 +114,44 @@ body {
 
     margin-bottom: 150px;
 }
+
+
+
+
+/*Toggle*/
+#toggle {
+    position: absolute;
+    right: 20px;
+    z-index: 999;
+    width: 35px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    visibility: hidden;
+    opacity: 0;
+}
+#toggle .span {
+    height: 2px;
+    background: #fff;
+    transition: all 0.3s ease-out;
+    backface-visibility: hidden;
+    margin: 7px auto;
+}
+#toggle.on #one {
+    transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+#toggle.on #two {
+    opacity: 0;
+}
+#toggle.on #three {
+    transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+#resize.active {
+    visibility: visible;
+    opacity: 0.99;
+}
+
+
 
 
 
